@@ -15,7 +15,9 @@ for R in np.arange(1,30,0.1):
 
 plt.plot((7.4, 7.4), (0, 800), 'k--')
 plt.plot((12.5, 12.5), (0, 800), 'k--')
-
+plt.xlabel("R")
+plt.ylabel("N")
+plt.title("Bifurcation diagram")
 plt.savefig("chaos_bifurcation.eps", format='eps')
 
 plt.show()
